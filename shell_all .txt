@@ -1,0 +1,199 @@
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+====== RESTART: /Users/davidzhang/Desktop/Project/ScantronAssignment.py ======
+
+ JUST TO TRACE, the local list of strings is:
+
+GREAT   421221212122422351331
+AAAAA   421212212321424311331
+BBB     411211211522341232312
+CCCCCC  422231212212432344334
+DDDD    221221212121422141132
+EEE     421221211212432233334
+FFFFFF  522221233331422351312
+GGGG    421212212221422214343
+HHH     421212212221421254344
+II      421221211212422331312
+JJJJ    421121211211422252321
+K       421121211111422351341
+LLLL    422221211212532132144
+MMMM    421221212212422351114
+NNNN    421221212122422233232
+
+ JUST TO TRACE, the local list of strings is:
+
+421221212122422351341
+1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+
+
+~ Welcome to this CMPT 120 Scantron Processing system ~
+ ===================================================== 
+
+The data file in this folder has 15 students.
+
+There are 21 questions.
+
+The answer key is:
+D B A B B A B A B A B B D B B C E A C D A 
+
+The points are:
+1.0 1.5 1.0 1.0 1.0 1.0 1.5 1.0 0.5 0.5 2.0 2.0 1.0 2.0 2.5 1.0 1.0 0.5 1.0 1.0 1.0 
+The maximum points possible are: 25.0
+
+
+You have to choose one of two options:
+Type ALL (not case sensitive) to process the whole class
+Type SEL (not case sensitive) to process selected students 
+ (up to half of the whole class)
+
+Type ALL or SEL: all
+
+All students have been processed.
+
+
+Here is the output that will be saved in the folder!
+
+'GREAT', 24.0, 96.0
+
+'AAAAA', 16.0, 64.0
+
+'BBB', 11.5, 46.0
+
+'CCCCCC', 15.0, 60.0
+
+'DDDD', 17.0, 68.0
+
+'EEE', 15.5, 62.0
+
+'FFFFFF', 15.0, 60.0
+
+'GGGG', 17.0, 68.0
+
+'HHH', 15.5, 62.0
+
+'II', 19.0, 76.0
+
+'JJJJ', 16.5, 66.0
+
+'K', 19.5, 78.0
+
+'LLLL', 13.5, 54.0
+
+'MMMM', 19.5, 78.0
+
+'NNNN', 19.5, 78.0
+
+
+HERE ARE THE THE STATS!
+=======================
+
+Maximum points: 24.0
+
+Average points: 16.933333333333334
+
+Number of students processed: 15
+
+Number of times each question was answered correctly:
+[13, 14, 12, 13, 10, 12, 15, 14, 8, 4, 7, 8, 13, 11, 12, 7, 6, 7, 11, 4, 4]
+
+Most difficult questions: [10, 20, 21]
+
+Distribution points: [0, 0, 0, 0, 1, 3, 6, 4, 0, 1]
+(Considering ranges: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] )
+
+Would you like to graph the distribution? (Y/N): 
+====== RESTART: /Users/davidzhang/Desktop/Project/ScantronAssignment.py ======
+
+ JUST TO TRACE, the local list of strings is:
+
+GREAT   421221212122422351331
+AAAAA   421212212321424311331
+BBB     411211211522341232312
+CCCCCC  422231212212432344334
+DDDD    221221212121422141132
+EEE     421221211212432233334
+FFFFFF  522221233331422351312
+GGGG    421212212221422214343
+HHH     421212212221421254344
+II      421221211212422331312
+JJJJ    421121211211422252321
+K       421121211111422351341
+LLLL    422221211212532132144
+MMMM    421221212212422351114
+NNNN    421221212122422233232
+
+ JUST TO TRACE, the local list of strings is:
+
+421221212122422351341
+1 1.5 1 1 1 1 1.5 1 0.5 0.5 2 2 1 2 2.5 1 1 0.5 1 1 1
+
+
+~ Welcome to this CMPT 120 Scantron Processing system ~
+ ===================================================== 
+
+The data file in this folder has 15 students.
+
+There are 21 questions.
+
+The answer key is:
+D B A B B A B A B A B B D B B C E A C D A 
+
+The points are:
+1.0 1.5 1.0 1.0 1.0 1.0 1.5 1.0 0.5 0.5 2.0 2.0 1.0 2.0 2.5 1.0 1.0 0.5 1.0 1.0 1.0 
+The maximum points possible are: 25.0
+
+
+You have to choose one of two options:
+Type ALL (not case sensitive) to process the whole class
+Type SEL (not case sensitive) to process selected students 
+ (up to half of the whole class)
+
+Type ALL or SEL: sel
+
+You chose to process selected students
+You will be asked to provide the name of the student
+
+Type a name or END to finish: great
+Student GREAT got 24.0 points 
+Type a name or END to finish: ii
+Student II got 19.0 points 
+Type a name or END to finish: aaaa
+This name is not in the data, type again
+
+Type a name or END to finish: aaaaa
+Student AAAAA got 16.0 points 
+Type a name or END to finish: end
+All your selected students have been processed.
+
+
+Here is the output that will be saved in the folder.
+
+'GREAT', 24.0, 96.0
+
+'II', 19.0, 76.0
+
+'AAAAA', 16.0, 64.0
+
+
+HERE ARE THE STATS
+==================
+
+Maximum points: 24.0
+
+Average points: 19.666666666666668
+
+Number of students processed: 3
+
+Number of times each question was answered correctly:
+[3, 3, 3, 3, 2, 2, 3, 3, 2, 1, 2, 2, 3, 3, 2, 3, 1, 3, 3, 0, 2]
+
+Most difficult questions: [20]
+
+Distribution points: [0, 0, 0, 0, 0, 0, 1, 1, 0, 1]
+(Considering ranges: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] )
+
+Would you like to graph the distribution? (Y/N): 
